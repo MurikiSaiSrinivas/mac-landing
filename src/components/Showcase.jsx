@@ -22,7 +22,7 @@ const Showcase = () => {
     }, [isTablet]);
     return (
         <section id='showcase'>
-            <div className="media xl:m-auto xl:max-w-[70%]">
+            <div className="media">
                 <video src="/videos/game.mp4" loop muted autoPlay playsInline></video>
                 <div className="mask">
                     <img src="/mask-logo.svg" alt="mask logo" />
