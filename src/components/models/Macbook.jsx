@@ -17,7 +17,7 @@ import { Color } from 'three';
 export default function MacbookModel(props) {
   const { color, texture } = useMacbookStore();
 
-  const { nodes, materials, scene } = useGLTF('/models/macbook-transformed.glb')
+  const { nodes, materials, scene } = useGLTF('models/macbook-transformed.glb')
 
   const screen = useVideoTexture(texture);
 
